@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&family=Molle&display=swap');
+
+:root{
+--a: #A87C7C;
+--s: #7E6363;
+--d: #503C3C;
+--q: #794028ff;
+--w: #3E3232;
+}
+
+body {
+    background: url('images/bgbg.jpg') center/cover no-repeat;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f1e4;
+}
+
+/* Header */
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    align-self: center;
+    width: 180px;
+    height: 180px;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+header {
+    background: url('images/bg1.jpg') center/cover no-repeat;
+    background-color: white;
+    padding: 5px;
+    position: relative;
+}
+.header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1800px;
+    margin-top: 20px ;
+    margin-bottom: 20px;
+}
+
+.text-container {  
+    font-family: "Leckerli One", static;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center; /* Aligns the text container */
+    color: var(--s); /* Adjust text color for readability */
+}
+
+.company-name {    
+    font-size: 50px; /* Size for company name */
+    font-weight: 400; /* Bold for company name */
+    margin-bottom: 5px; /* Remove any default margin */
+    text-align: left;
+}
+
+.tagline {
+    font-size: 30px; /* Smaller font for tagline */
+    font-weight: normal;
+    margin-top: 5px; /* Space between the company name and tagline */
+}
+
+header h1 {
+    font-family: "Leckerli One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    font-style: bold;
+    position: relative;
+    color: #473820;
+}
+
+/* Sections */
+
+section {
+    padding: 40px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+
+/* HERO SECTION */
+
+
+.hero {
+    
+    
+    background: radial-gradient(at 30.57556977563996% 54.972505253314644%, #dca47c 0px, transparent 50%), radial-gradient(at 80% 75%, #c37857 0px, transparent 50%), radial-gradient(at 18.217798705705437% 13.097507915655267%, #eec759 0px, transparent 50%), radial-gradient(at 70.73832575292715% 41.22250612751604%, #992e24 0px, transparent 50%), #233e8b;
+    
+    text-align: center;
+    padding: 30px 30px;
+    display: flex;
+    margin: 5%;
+}
+
+.hero-image {
+    width: 200px; /* Full width of the section */
+    height: 200px;
+    object-fit: cover;
+}
+
+.welcome-text {
+    font-size: 40px;
+    font-family: "Molle", serif;
+    font-weight: bold;
+    color: var(--w);
+    margin-top: 20px;
+}
+
+.intro-text {
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    color: var(--w);
+    margin-top: 20px;
+    line-height: 1.3;
+    max-width: 900px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* 2nd Section */
+
+.menu-location {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.news_contact{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.menu-preview {
+    flex: 2;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: var(--a);
+}
+
+.location-hours {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 40px;
+    background-color: #e3caa5; /* Light Brown background */
+}
+
+.location {
+    background: conic-gradient(at top right, #e4e4e7, #fed7aa, #262626);
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff; /* White background */
+    border-radius: 10px;
+}
+
+.location iframe {
+    border-radius: 10px;
+    width: 100%;
+    max-width: 500px;
+    height: 300px;
+}
+
+.lets-go-btn {
+	box-shadow: 5px 5px 3px 0px #1564ad;
+	background:linear-gradient(to bottom, #EFC3A4 5%, #378de5 100%);
+	background-color:#79bbff;
+	border-radius:10px;
+	border:1px solid #337bc4;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Verdana;
+	font-size:18px;
+	font-weight:bold;
+	padding:10px 10px;
+	text-decoration:none;
+}
+.lets-go-btn:hover {
+	background:linear-gradient(to bottom, #378de5 5%, #79bbff 100%);
+	background-color:#378de5;
+}
+.lets-go-btn:active {
+	position:relative;
+	top:1px;
+}
+
+.hours {
+    text-align: left;
+    padding: 20px;
+    background-color: #ffffff; /* White background */
+    border-radius: 10px;
+}
+
+.hours h2 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 24px;
+    font-family: "Molle", serif;
+    color: #473820;
+    margin-bottom: 20px;
+}
+.openclose{
+    width: 200px;
+    height: auto;
+}
+
+.hours ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    font-size: 18px;
+    color: #473820;
+}
+
+.hours ul li {
+    margin: 10px 0;
+}
+
+
+/* 3rd section */
+
+.about-us {
+    background-color: #e6d5b8;
+}
+
+.testimonials {
+    background-color: #f8e8d6;
+}
+
+.newsletter {
+    color: white;
+    background: linear-gradient(to bottom, #572e0c, #fed7aa);
+    flex: auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.contact {
+    background: linear-gradient(to top, #572e0c, #fed7aa);
+    border-radius: 10px;
+    text-align: center;
+    padding: 40px; /* Soft Yellowish background for the contact section */
+}
+
+.contact-gif {
+    width: 150px; /* Adjust size of the gif */
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.contact h2 {
+    /* font-family: "Leckerli One", serif; */
+    font-weight: 300;
+    font-size: 30px;
+    color: #473820;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.contact-form {
+    
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: var(--a); /* White background for form */
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.575);
+}
+
+.contact-form label {
+    font-size: 18px;
+    font-weight: bold;
+    color: #473820;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.contact-form button {
+    width: 100px;
+	box-shadow: 3px 4px 0px 0px #8a2a21;
+	background:linear-gradient(to bottom, #c62d1f 5%, #f24437 100%);
+	background-color:#c62d1f;
+	border-radius:18px;
+	border:1px solid #d02718;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Trebuchet MS;
+	font-size:18px;
+	padding:7px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #810e05;
+}
+.contact-form button:hover {
+	background:linear-gradient(to bottom, #f24437 5%, #c62d1f 100%);
+	background-color:#f24437;
+}
+.contact-form button:active {
+	position:relative;
+	top:1px;
+}
+
+
+/* NAVBAR */
+nav {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center; /* This will center the navbar */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0px;
+    margin: 0px;
+    justify-content: center; /* This ensures the items in the navbar are centered */
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.3s ease;
+    padding: 20px 30px;
+    border-radius: 25px;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    color: white; /* Change text color to white */
+    background-color: #a67b5b; /* Dark coffee color for the box */
+    border-radius: 20px; /* Maintain the border-radius */
+    padding: 10px 20px; /* Ensure the padding stays consistent on hover */
+}
+
+
+/* Footer */
+footer {
+    background: linear-gradient(to top left, #1e1a78, transparent, #1e40af);
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
